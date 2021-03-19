@@ -18,7 +18,7 @@ export const getRawCoverage = async (
         await exec(`git checkout -f ${branch}`);
     }
 
-    await exec('npm ci');
+    await exec('yarn');
 
     let output = '';
 
